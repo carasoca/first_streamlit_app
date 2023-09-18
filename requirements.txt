@@ -1,4 +1,3 @@
 #requirements.txt
- --upgrade pip
 snowflake-connector-python 3.2.0
-streamlit==1.25.0
+
