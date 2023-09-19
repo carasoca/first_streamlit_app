@@ -49,7 +49,7 @@ except URLError as e:
 
 streamlit.header("The Fruit load list contains:")
 
-def gef_fruit_load_list:
+def gef_fruit_load_list():
   with my_cnx.cursor() as my_cur:
   my_cur.execute("Select * from fruit_load_list")
   return my_cur.fetchall()
